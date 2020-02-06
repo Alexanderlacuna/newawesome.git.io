@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>this is an awesome landing page</title>
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+
+
+ 
+		<div class="content">
+
+
+
+			<nav class="navbar">
+				
+				<ul class="control-nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+
+					<li><a href="#">Help</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+			</nav>
+
+				<div class="float-item">
+
+
+					<div class="buying-cart">
+
+						<div class="cancel-icon">
+
+
+							<i class="far fa-window-close fa-3x"></i>
+							
+						</div>
+
+						<div>
+							ITEM NAME:HP LAPTOP
+						</div>
+
+						<div>
+							<img src="./apple.png" height="150px">
+						</div>
+
+						<div>
+							PRICE:$43
+						</div>
+
+						<div>
+							
+						vertical line
+						</div>
+
+
+						<div class="btn-button">
+							<button class="btn-cart btn-cart-left">CANCEL</button>
+
+							<button class="btn-cart btn-cart-left"> BUY</button>
+						</div>
+						
+
+					</div>
+
+
+					
+					
+				</div>
+			<div class="text-content">
+
+
+			
+
+				<div class="content-text-side">
+
+					<div class="content-text-header ">
+						<h1>Laptop for the future</h1>
+					</div>
+
+					<div>
+						<p>the new 14 inch bezeless display offering a 4k touch
+						with touch screen</p>
+					</div>
+
+					<div class="content-text-action">
+						<button class="btn btn-left">14 inch</button>
+						<button class="btn btn-right">Add To Cart</button>
+						
+					</div>
+					
+				</div>
+
+				<div class="image-side">
+
+
+				<!-- 	<p class="translate-text"> -->
+                   <div class="translate-text">
+                   	
+                  
+
+						<img class="img-control" src="./apple.png">
+
+
+
+						 </div>
+
+				<!-- 		this is the image
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus totam atque excepturi placeat vitae adipisci, laboriosam quam porro doloremque ex, animi assumenda impedit modi obcaecati maiores ad harum minima ipsam sequi, amet doloribus quae optio ullam. Nemo qui, amet reiciendis!
+						
+					</p> -->
+					
+					
+				</div>
+				
+			</div>
+			
+		</div>
+
+		
+
+		
+
+	</div>
+	
+
+
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		.container{
+			height: 100vh;
+
+			overflow-y: hidden;
+
+			 font-family: 'Nunito Sans', sans-serif;
+
+			
+
+		}
+		.content{
+
+			background-image: url(./wave.svg);
+
+			height:100vh;
+			background-repeat:no-repeat;
+			background-position: center;
+			background-size: cover;
+
+			position: relative;
+			/*background: red;*/
+
+		}
+
+		.text-content{
+			height: 100vh;
+			display: flex;
+			justify-content: space-between;
+			/*align-items: center;*/
+			text-align: center;
+		}
+
+		.content-text-side{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+			align-items: center;
+			padding: 15px;
+			width: 100%;
+
+			/*width: 0%;*/
+
+		}
+
+		.content-text-action{
+			/*width: 100%;*/
+
+		}
+
+		.content-text-side div{
+			padding: 15px;
+		}
+
+		.content-text-action{
+			display: flex;
+		     justify-content: space-between;
+
+		}
+		.btn{
+			padding:20px 40px;
+			outline: none;
+			margin: 15px;
+			border-radius: 5px;
+
+
+		}
+		.btn-left{
+			background: #fff;
+
+			border: 2px solid #f542b0;
+			color:#f542b0;
+			font-weight: bold;
+		}
+
+		.btn-right{
+			background:#f542b0;
+			color: #fff;
+		}
+
+
+          .image-side{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+           width: 100%;
+           padding: 10px;
+
+           position: relative;
+
+          }
+          .navbar{
+          	height:63px;
+          	padding: 15px;
+          }
+
+          /*control the nav*/
+
+          ul{
+          	/*margin:0;*/
+          	display: flex;
+          	/*justify-content: space-between;*/
+
+          	padding: 15px;
+          	justify-content: center;
+          	text-align: center;
+          	/*margin:15px;*/
+
+
+
+          }
+
+          ul li{
+          	list-style: none;
+          	/*padding-left: 10px;*/
+
+
+          }
+
+          li a{
+          	text-decoration: none;
+
+          	margin:20px;
+
+          	color:#333;
+
+          	transition: 2s;
+          }
+        li a:hover{
+        	color:pink;
+        }
+
+
+        .translate-text{
+
+        }
+
+        .translate-text{
+
+        	animation-name:anime-transite;
+        	animation-delay: 1s;
+        	animation-duration: 4s;
+        	animation-fill-mode: forwards;
+        	transition: 3s;
+
+
+        	position: absolute;
+
+        }
+
+        /*image control*/
+        .img-control{
+        	color: transparent;
+
+        	display: inline-block;
+        }
+
+        .text-content{
+        	display: relative;
+        	/*width: 100vw;*/
+        }
+
+        .float-item{
+        	/*position: absolute;
+        	background: #fff;*/
+        	z-index: 3;
+        	height: 100vh;
+        	width: 100vw;
+        	/*top:30vh;*/
+        	/*right: 40%;*/
+
+        	/*background:rgba(0,0,0,0.8);*/
+        	color: #fff;
+        	/*display: flex;*/
+        	/*opacity: 0;*/
+        	display: none;
+        	flex-direction: column;
+        	justify-content: center;
+        	align-items: center;
+        	text-align: center;
+        	top: 0;
+
+        	transition: 3s;
+
+
+        }
+
+        .buying-cart{
+        	width:400px;
+        	height: 500px;
+        	background:#fff;
+        	color:#000;
+
+        	display: flex;
+        	justify-content: center;
+        	text-align: center;
+
+        	flex-direction: column;
+        	font-weight: bold;
+        	position: relative;
+
+        	 box-shadow:5px 5px 5px 5px grey;
+        }
+
+        .cancel-icon{
+        	position: absolute;
+        	top: 15px;
+        	right: 10px;
+        }
+
+        .btn-button{
+        	width: 100%;
+        	display: flex;
+        	justify-content: center;
+        	text-align: center;
+        	align-items:center;
+        	padding: 25px;
+        	margin-top:15px;
+
+        	/**/
+
+        }
+
+        .btn-cart{
+        	margin: 15px;
+        	padding: 10px 20px;
+
+        	/*control button*/
+        	background: #333;
+        	color:#fff;
+        	outline: none;
+        	border-radius: 20px;
+        	cursor: pointer;
+        	transition: 3s;
+
+        }
+         .fa-window-close{
+
+         	cursor:pointer;
+
+         	/*background: #000;*/
+         	/*background:transparent;*/
+         	/*color:;*/
+         }
+        .btn-cart:hover{
+        	/*padding:15px;*/
+
+        	transform: scale(1.2);
+        }
+
+        /*.btn-button button{
+        	margin: 15px;
+        	padding: 15px;
+        }*/
+
+        @keyframes anime-transite{
+
+
+        	from{
+        		top:100px;
+        	}
+
+        	to{
+        		top:200px;
+        	}
+        }
+
+
+        button{
+        	cursor: pointer;
+        }
+
+
+        @media (max-width: 750px) {
+
+        	body{
+        		font-size: 23px;
+        	}
+
+        	.text-content{
+        		flex-direction:column;
+        	}
+
+        	.content-text-action{
+        		flex-direction: column;
+        		padding: 15px;
+        	}
+
+        	li a{
+        		margin: 10px;
+        	}
+
+        	.cancel-icon{
+        		right:20%;
+        	}
+
+        	
+        }
+
+	</style>
+
+	<script src="https://kit.fontawesome.com/0575292d25.js" crossorigin="anonymous"></script>
+
+
+	<script type="text/javascript">
+
+		// btn-right
+
+		let btn=document.querySelector(".btn-right")
+		let floatItem=document.querySelector(".float-item")
+		
+		let cancel=document.querySelector(".fa-window-close")
+
+		btn.addEventListener("click",()=>{
+			
+			// floatItem.style.opacity="1"
+			floatItem.style.display="flex"
+		})
+
+		
+		cancel.addEventListener("click",()=>{
+
+			// floatItem.style.opacity="0"
+			floatItem.style.display="none"
+			// floatItem.style.display="none"
+
+
+		})
+	</script>
+</body>
+
+
+
+</html>
